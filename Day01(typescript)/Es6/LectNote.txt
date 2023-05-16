@@ -1,0 +1,13 @@
+/*
+
+what is typescript 
+	-- install typescript
+	varibanles (datatypes)
+      == array
+      == object
+      == functions
+      == class , inhertance ,
+      == interface
+
+
+*/
