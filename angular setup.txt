@@ -1,2 +1,10 @@
 1- install node js
 2- npm i -g typescript
+3- npm i -g @angular/cli
+4- ng new projectName
+5- ng serve ... ng serve -o ... npm start
+
+6- ng g c componetName --skip-tests
+
+
+

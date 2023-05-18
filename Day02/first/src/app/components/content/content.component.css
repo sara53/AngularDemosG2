@@ -1,0 +1,9 @@
+.content {
+  background-color: #aaa;
+  padding: 20px;
+}
+button {
+  background-color: orange;
+  padding: 10px;
+  border: none;
+}
