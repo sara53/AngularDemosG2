@@ -1,0 +1,17 @@
+<div class="bg-light p-5 text-center">
+ <div class="container">
+    <h2>{{compTitle}}</h2>
+    <!-- <img src="assets/imgs/{{imgSrc}}" alt=""> -->
+    <!-- <img [src]="imgSrc2" alt=""> -->
+    <!-- <input (input)="getInputValue($event)" type="text" class="form-control" placeholder="Enter key"> -->
+    <input [(ngModel)]="inputValue"  type="text" class="form-control" placeholder="Enter key">
+    <p class="text-danger fw-bold fs-1">{{inputValue}} </p>
+
+    <select [(ngModel)]="selectValue">
+        <option>Html</option>
+        <option>Css</option>
+        <option>JS</option>
+    </select>
+    <p>{{selectValue}}</p>
+ </div>
+</div>

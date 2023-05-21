@@ -1,0 +1,46 @@
+<div class="bg-dark p-5 text-center text-light">
+    <!-- <h2 #myElement >Content Component</h2> -->
+    <!-- <p *ngIf="flag else ourDiv"  class="bg-secondary lead fs-1" >Welcome Dot Net</p>
+
+    <ng-template #ourDiv>
+            <div  class="bg-light p-2 text-dark">
+                <h2>Else Block</h2>
+                <p>Hello From ITI</p>
+            </div>
+  </ng-template> -->
+<!-- 
+  <ng-container *ngFor="let x of studentNames;let i = index">
+    <h2>{{x.fname}} : {{x.id}}</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, eligendi?</p>
+  </ng-container> -->
+
+<!-- <div class="container">
+    <h2>Todos List</h2>
+    <div class="row">
+        <div class="col-sm-6 col-md-8">
+            <input [(ngModel)]="inputValue" type="text" class="form-control" placeholder="Enter Your Key">
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <button class="d-block w-100 btn btn-outline-warning" (click)="addTodo()">Add</button>
+        </div>
+    </div>
+    <div *ngFor="let todo of todosList; let i = index" class="row mt-3">
+        <div class="col-sm-6 col-md-8">
+            <p class="bg-secondary p-2 rounded">{{todo}}</p>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <button class="btn btn-danger w-100 d-block " (click)="removeTodo(i)">Remove</button>
+        </div>
+    </div>
+</div> -->
+
+<!-- <p [style.color]="show?'red':'green'">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, assumenda.</p> -->
+<!-- <p [ngStyle]="{color:flag ?'#fff':'#000',backgroundColor:flag?'red':'green',padding:'10px'}">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, assumenda.</p> -->
+
+<!-- <p [class.test]="!flag">lorem Text</p> -->
+<p [ngClass]="{
+    'bg-success':flag,
+    success:show
+}">lorem Text</p>
+
+</div>

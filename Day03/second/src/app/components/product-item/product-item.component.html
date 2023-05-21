@@ -1,0 +1,22 @@
+<div class="card text-dark">
+    <div class="card-body">
+        <h5 class="card-title">{{myProduct.productName}}</h5>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p class="card-text fw-bold text-success">Price : {{myProduct.price}}</p>
+        <div [ngSwitch]="myProduct.quantity">
+            <p *ngSwitchCase="0" class="lead fs-3 text-danger">No Product Avails..</p>
+            <p *ngSwitchCase="1" class="lead fs-3 text-warning">Only One Product Avail..</p>
+            <p *ngSwitchDefault class="lead fs-3">Qunatity :{{myProduct.quantity}}</p>
+
+        </div>
+        <a href="#" class="btn"
+        [ngClass]="{
+            'bg-danger':myProduct.quantity == 0,
+            'bg-success':myProduct.quantity != 0
+        }"
+        >
+    {{myProduct.quantity == 0 ? "Solid Out" : "Buy Now"}}
+    
+    </a>
+    </div>
+</div>
