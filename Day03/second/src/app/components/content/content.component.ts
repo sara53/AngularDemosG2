@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-content',
@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class ContentComponent {
 
+@Input()  recieveData:string = ''
   inputValue: string = ''
   todosList:string[] =[]
   color: string = 'red'

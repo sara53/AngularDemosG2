@@ -9,6 +9,7 @@ import { TestComponent } from './components/test/test.component';
 import { TodoComponent } from './components/todo/todo.component';
 import { ProductsComponent } from './components/products/products.component';
 import { ProductItemComponent } from './components/product-item/product-item.component';
+import { RegisterComponent } from "./components/register/RegisterComponent";
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ProductItemComponent } from './components/product-item/product-item.com
     TestComponent,
     TodoComponent,
     ProductsComponent,
-    ProductItemComponent
+    ProductItemComponent,
+    RegisterComponent
   ],
   imports: [
 FormsModule,

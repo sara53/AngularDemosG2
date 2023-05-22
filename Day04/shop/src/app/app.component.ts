@@ -6,12 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-
-  appData:string = ''
-  
-  show(x: string) {
-   this.appData = x
-  
-}
-
+  title = 'shop';
 }
