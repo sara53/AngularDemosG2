@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Sumsung",
+      "quantity": 10,
+      "price": 2
+    },
+    {
+      "productName": "Iphone",
+      "price": 999,
+      "quantity": 2,
+      "id": 2
+    },
+    {
+      "id": 4,
+      "productName": "Pen",
+      "quantity": 33,
+      "price": 9
+    },
+    {
+      "productName": "watch",
+      "price": 1000,
+      "quantity": 40,
+      "id": 5
+    }
+  ]
+}

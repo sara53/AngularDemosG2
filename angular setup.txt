@@ -7,4 +7,7 @@
 6- ng g c componetName --skip-tests
 
 
+/*=======Angular Project Link========*
 
+
+DeadLine 3/6 --> project

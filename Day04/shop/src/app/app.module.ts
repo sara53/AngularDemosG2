@@ -10,7 +10,9 @@ import { ProductsComponent } from './components/products/products.component';
 import { ProductDetailsComponent } from './components/product-details/product-details.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-
+import { ProductFormComponent } from './components/product-form/product-form.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http'
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,11 +21,14 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     ProductsComponent,
     ProductDetailsComponent,
     NotFoundComponent,
-    NavbarComponent
+    NavbarComponent,
+    ProductFormComponent
   ],
   imports: [
     
     BrowserModule,
+    ReactiveFormsModule,
+    HttpClientModule,
     AppRoutingModule
   ],
   providers: [],

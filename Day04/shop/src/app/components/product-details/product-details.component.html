@@ -1,3 +1,8 @@
 <div class="bg-dark p-5 text-center text-light">
   <h2>Product Details : {{ productId }}</h2>
+  <p class="lead fs-1">{{ product.productName }}</p>
+  <p class="lead text-warning fs-3">Price: {{ product.price }}</p>
+  <a class="btn btn-outline-primary" [routerLink]="['/products']">
+    Back to Products
+  </a>
 </div>
